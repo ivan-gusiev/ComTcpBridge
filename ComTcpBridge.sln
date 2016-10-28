@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComToTcp", "ComToTcp\ComToTcp.csproj", "{15F3B272-7ED3-423C-8AFB-CD8832A07BEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComTcpBridge.Core", "ComTcpBridge.Core\ComTcpBridge.Core.csproj", "{BB3AB630-8D61-4B7B-8134-C03BD2451865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpViewer", "TcpViewer\TcpViewer.csproj", "{6904EBCF-D25C-4C86-9448-25C201DE59E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15F3B272-7ED3-423C-8AFB-CD8832A07BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F3B272-7ED3-423C-8AFB-CD8832A07BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F3B272-7ED3-423C-8AFB-CD8832A07BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F3B272-7ED3-423C-8AFB-CD8832A07BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3AB630-8D61-4B7B-8134-C03BD2451865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3AB630-8D61-4B7B-8134-C03BD2451865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3AB630-8D61-4B7B-8134-C03BD2451865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3AB630-8D61-4B7B-8134-C03BD2451865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6904EBCF-D25C-4C86-9448-25C201DE59E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6904EBCF-D25C-4C86-9448-25C201DE59E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6904EBCF-D25C-4C86-9448-25C201DE59E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6904EBCF-D25C-4C86-9448-25C201DE59E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
