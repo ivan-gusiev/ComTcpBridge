@@ -148,6 +148,7 @@
             this.Controls.Add(this.txtData);
             this.Controls.Add(this.toolStrip1);
             this.DataBindings.Add(new System.Windows.Forms.Binding("Location", global::TcpViewer.Properties.Settings.Default, "DefaultLocation", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = global::TcpViewer.Properties.Settings.Default.DefaultLocation;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

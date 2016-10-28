@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.lblComPort = new System.Windows.Forms.Label();
             this.cboComPort = new System.Windows.Forms.ComboBox();
             this.grpInput = new System.Windows.Forms.GroupBox();
@@ -148,6 +149,7 @@
             this.DataBindings.Add(new System.Windows.Forms.Binding("Location", global::ComToTcp.Properties.Settings.Default, "DefaultLocation", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = global::ComToTcp.Properties.Settings.Default.DefaultLocation;
             this.MaximizeBox = false;
             this.Name = "MainForm";
